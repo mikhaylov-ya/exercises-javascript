@@ -22,9 +22,9 @@ theory: |
 
   When defining the `for` loop, we have three expressions in parentheses, separated by semicolons:
 
-  1. The initial counter value. This code runs exactly once before the first iteration.
-  2. A predicate - the condition for the loop to iterate. It's executed on each iteration. Exactly like what we have with `while`.
-  3. Description of the counter change. This code is executed at the end of each iteration.
+  1. The initial counter value. This code runs exactly once before the first iteration
+  2. A predicate that is the condition under which the loop iterates. It's run every iteration, just like `while`
+  3. Description of the counter change. This code is executed at the end of each iteration
 
   Other than that, it works exactly the same as the `while` loop.
 
